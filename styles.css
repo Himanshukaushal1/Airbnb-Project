@@ -212,6 +212,9 @@ header{
 .hoz-scroll-nav:hover{
     opacity: 1;
     cursor: pointer;
+}
+
+.bor-bottom:hover{
     border-bottom: 2px solid black;
 }
 
