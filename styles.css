@@ -74,6 +74,7 @@ header{
     border-radius: 30px;
     transition-property: background-color ;
     transition-duration: .15s;
+    text-wrap: nowrap;
 }
 
 .add-home:hover{
@@ -86,6 +87,7 @@ header{
     border-radius: 60%;
     transition-property: background-color;
     transition-duration: .15s;
+ 
 }
 
 .net-logo:hover{
@@ -103,6 +105,7 @@ header{
     outline: 1px solid lightgray;
     margin-left: 5px;
     align-items: center;
+   
 }
 
 .sign-in i{
@@ -260,6 +263,7 @@ header{
     transition-property: opacity, background-color, border-color;
     transition-duration: .15s;
     transition-timing-function: linear;
+    text-wrap: nowrap;
 }
 
 .filter-btn button{
@@ -331,5 +335,8 @@ main{
 .product-desc p{
     margin: 3px 0;
 }
+
+/*Footer*/
+
 
 
