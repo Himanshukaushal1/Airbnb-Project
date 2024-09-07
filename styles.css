@@ -186,3 +186,83 @@ header{
     font-size: 1rem;
 }
 
+/*Lower heading*/
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.icons{
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hoz-scroll-nav{
+    opacity: .6;
+    transition-property: opacity,border;
+    transition-duration: .15s;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.hoz-scroll-nav:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.hoz-scroll-nav i{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.hoz-scroll-nav p{
+    font-size: .8rem;
+}
+
+.arrow{
+    padding: 12px;
+    border-radius: 50%;
+    margin-left: -60px;
+    opacity: 1;
+    border: 2px solid lightgray;
+    transition-property: transform;
+    transition-duration: .15s;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.arrow:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 8px lightgray;
+}
+
+.lower button{
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    opacity: .8;
+    background-color: white;
+    transition-property: opacity, background-color, border-color;
+    transition-duration: .15s;
+    transition-timing-function: linear;
+}
+
+.filter-btn button{
+    padding: 15px 30px;
+}
+
+.lower button:hover{
+    cursor: pointer;
+    opacity: 1;
+    background-color:#eee;
+    border-color: black;
+}
+
+
