@@ -24,6 +24,7 @@ header{
 
 .logo img{
     width: 160px;
+    cursor: pointer;
 }
 
 .mode{
@@ -43,13 +44,15 @@ header{
 
 .mode .p1{
     font-weight: bold;
+    cursor: pointer;
 }
 
 .mode .p2{
     color: grey;
 }
 .mode .p2:hover{
-    background-color: rgb(223, 223, 223);  
+    background-color: rgb(223, 223, 223); 
+    cursor: pointer; 
 }
 
 .right-most-section{
@@ -71,6 +74,7 @@ header{
 
 .add-home:hover{
     background-color: rgb(223, 223, 223);
+    cursor: pointer;
 }
 
 .net-logo{
@@ -85,7 +89,7 @@ header{
 }
 
 .sign-in{
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     background-color: #eee;
@@ -94,14 +98,23 @@ header{
     transition-duration: .15s;
     outline: 1px solid lightgray;
     margin-left: 5px;
+    align-items: center;
 }
 
 .sign-in i{
     margin: 0 8px;
 }
 
+.sign-in .fa-user{
+    background-color: darkgray;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
 .sign-in:hover{
     box-shadow: 2px 2px 5px #6b6b6b;
+    cursor: pointer;
 }
 
 
@@ -164,4 +177,12 @@ header{
     background-color: rgb(180, 5, 5);
 }
 
+.mid-p1{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.mid-p2{
+    font-size: 1rem;
+}
 
