@@ -357,6 +357,13 @@ main{
     width: 100%;
     height: 75%;
     flex-basis: 80%;
+    transition-property: transform;
+    transition-duration: .15s;
+}
+
+.product-image:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .product-image img{
@@ -377,7 +384,7 @@ main{
 .product-desc .desc-p1 , .product-desc .desc-cond{
     font-weight: bold;
     font-size: 1.2rem;
-    color: rgb(60, 60, 60);  
+    color: rgb(60, 60, 60);   
 }
 
 .product-desc .desc-host{
